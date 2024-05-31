@@ -1,4 +1,5 @@
 .sidebar{
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     flex:0.35;
@@ -19,4 +20,35 @@
 .sidebar_headerRight>.MuiSvgIcon-root {
     margin-right:2vw;
     font-size: 24px !important;
+}
+
+.sidebar_search{
+    display: flex;
+    height: 39px;
+    background-color: #f6f6f6;
+    align-items: center;
+    padding: 10px;
+}
+.sidebar_searchContainer{
+    display:flex;
+    height: 35px;
+    width:100%;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+
+}
+.sidebar_searchContainer> .MuiSvgIcon-root{
+    color:gray;
+    padding:10px;
+}
+.sidebar_searchContainer>input{
+    border:none;
+    outline-width:0;
+    margin-left: 10px;
+}
+.sidebar_chats{
+    flex:1;
+    background-color: white;
+    overflow:scroll;
 }
