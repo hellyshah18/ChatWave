@@ -1,7 +1,7 @@
 import React from 'react'
 import './Sidebar.css'
 import { Avatar, IconButton } from '@mui/material';
-import TaskIcon from '@mui/icons-material/Task';
+import AssignmentIcon from '@mui/icons-material/Assignment';
 import ChatIcon from '@mui/icons-material/Chat';
 import SearchOutlined from '@mui/icons-material/SearchOutlined';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
@@ -14,7 +14,7 @@ function Sidebar() {
         <Avatar />
         <div className='sidebar_headerRight'>
         <IconButton>
-            <TaskIcon />
+            <AssignmentIcon />
           </IconButton>
           <IconButton>
             <ChatIcon />
