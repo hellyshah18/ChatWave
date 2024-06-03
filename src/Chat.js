@@ -30,7 +30,7 @@ function Chat() {
         <span className='chat_name'></span>
           
           This is a message 
-        <span className='chat_name'>
+        <span className='chat_timestamp'>
           {new Date().toUTCString()}
         </span>
         </p>
